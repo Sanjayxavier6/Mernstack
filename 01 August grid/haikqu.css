@@ -1,0 +1,41 @@
+body{
+    background-image: url("haikyuu1.jpg");
+    background-size: cover;
+    background-repeat: center;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: orange;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.rang1 img{
+    height: 150px;
+    width: 130px;
+}
+.rang img{
+    height: 150px;
+    width: 130px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(6,150px);
+    gap: 20px;
+    justify-content: center;
+}
+
